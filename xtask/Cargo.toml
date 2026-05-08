@@ -1,0 +1,11 @@
+[package]
+name = "xtask"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+anyhow = "1.0.100"
+libbpf-cargo = "0.26.2"
+xshell = "0.2"
+clap = { version = "4.0", features = ["derive"] }

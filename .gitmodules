@@ -1,0 +1,3 @@
+[submodule "xtask/third_party/bcc"]
+	path = xtask/third_party/bcc
+	url = https://github.com/iovisor/bcc.git

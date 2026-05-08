@@ -1,0 +1,19 @@
+[package]
+name = "bpf-skel"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Rust-facing libbpf skeletons generated from third-party BPF programs"
+build = false
+include = [
+    "/LICENSE*",
+    "/README.md",
+    "/src/**",
+]
+
+[lib]
+name = "bpf_skel"
+path = "src/lib.rs"
+
+[dependencies]
+libbpf-rs = "0.26.2"
